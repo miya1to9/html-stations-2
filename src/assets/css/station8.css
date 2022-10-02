@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+body{
+  min-height: 100vh;
+  display: grid;
+}
+
+#container{
+  display: grid;
+  grid-template: 
+    "head head" 1fr
+    "side main1" 1fr
+    "side main2" 1fr
+    "side main3" 1fr
+    "foot foot" 1fr 
+    / 1fr 1fr;
+}
+
+.header{
+  grid-area: head;
+}
+
+.item1{
+  grid-area: side;
+}
+
+.item2{
+  grid-area: main1;
+}
+
+.item3{
+  grid-area: main2;
+}
+
+.item4{
+  grid-area: main3;
+}
+
+.footer{
+  grid-area: foot;
+}
+
+
+.item{
+  border: 1px solid #000;
+  padding: 1rem;
+}
