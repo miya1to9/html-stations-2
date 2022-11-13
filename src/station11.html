@@ -4,11 +4,64 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/station11.css" type="text/css" />
     <title>Station 11</title>
   </head>
   <body>
     <main>
       <form action="" method="post">
+        <table
+          bgcolor="#ffffff"
+          role="presentation"
+          border="0"
+          width="100%"
+          cellspacing="0"
+          style="max-width: 540px; margin: 10 auto"
+        >
+          <tr>
+            <td align="left">
+              <p class="req">メールアドレス</p>
+              <!-- <span class="notice">必須</span> -->
+            </td>
+            <td>
+              <input
+                type="email"
+                placeholder="メールアドレス"
+                id="email"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td align="left">
+              <p class="req">パスワード</p>
+              <!-- <span class="notice">必須</span> -->
+            </td>
+            <td>
+              <input
+                type="password"
+                placeholder="パスワード"
+                minlength="6"
+                id="password"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td align="left">
+              <p class="req">ニックネーム</p>
+              <!-- <span class="notice">必須</span> -->
+            </td>
+            <td>
+              <input
+                type="text"
+                placeholder="ニックネーム"
+                maxlength="20"
+                id="nickname"
+              />
+            </td>
+          </tr>
+        </table>
         <button type="submit">送信</button>
       </form>
     </main>

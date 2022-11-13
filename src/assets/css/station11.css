@@ -1,0 +1,10 @@
+.notice {
+  font-size: 12px;
+  line-height: 1;
+  display: inline-block;
+  margin-left: 5px;
+  padding: 2px;
+  color: #666;
+  border: 1px solid #666;
+  border-radius: 3px;
+}
